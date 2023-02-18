@@ -1,0 +1,32 @@
+@import "vars";
+@import "mixins";
+
+
+/* Default styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+
+    font-family: 'Inter'
+}
+
+.conteiner {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.catalog .conteiner {
+    display: flex;
+    justify-content: space-between
+}
+
+/* Blocks */
+@import "./blocks/card.scss";
+@import "./blocks/filtr.scss";
+
+/* Vendor libs */
+
